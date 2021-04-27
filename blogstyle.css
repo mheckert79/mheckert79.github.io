@@ -1,27 +1,55 @@
+
+
 * {
   box-sizing: border-box;
 }
+
 
 /* Add a gray background color with some padding */
 body {
   font-family: Helvetica, sans-serif;
   padding: 20px;
   background: black;
+  cursor: url("Normal.cur"), default;
+}
+
+marquee {
+      font-size: 30px;
+      font-weight: 800;
+      color: #96dcef;
+      font-family: Courier;
+
+      }
+
+p {
+  overflow: hidden;
+  max-width: 106ch;
+
 }
 
 a {
   color: #655aa9;
+  cursor: url("Horizontal.cur"), url("custom.cur"), default;
 }
 
 a {
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
+   cursor: url("Alternate.cur"), url("custom.cur"), default;
 }
 
 a:hover {
   background-color: #ddd;
   color: black;
+  cursor: url("Alternate.cur"), url("custom.cur"), default;
+
+}
+
+
+.text{
+  cursor: url("Handwriting.cur");
+
 }
 
 .previous {
@@ -99,6 +127,7 @@ a:hover {
   outline-color: #96dcef;
 }
 
+    
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   

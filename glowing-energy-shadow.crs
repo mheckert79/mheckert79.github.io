@@ -1,0 +1,24 @@
+﻿[UpArrow]
+Path=Glowing Alternate Select.cur
+
+[NWPen]
+Path=Glowing Handwriting.cur
+
+[Help]
+Path=Glowing help cursor.cur
+
+[SizeWE]
+Path=Glowing Horizontal resize.cur
+
+[Hand]
+Path=Glowing Like select.cur
+
+[SizeNWSE]
+Path=Glowing Diagonal Resize.cur
+
+[SizeNESW]
+Path=Glowing resize.cur
+
+[Arrow]
+Path=Glowing Normal.cur
+
