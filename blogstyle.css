@@ -40,9 +40,8 @@ a {
 }
 
 a:hover {
-  background-color: #ddd;
+  background-color:;
   color: black;
-  cursor: url("Alternate.cur"), url("custom.cur"), default;
 
 }
 
